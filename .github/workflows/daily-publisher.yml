@@ -1,0 +1,29 @@
+name: Daily Content Publisher
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Runs daily at 12:00 AM UTC
+  workflow_dispatch:      # Allows manual trigger from GitHub Actions tab
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write # Required to push daily commits
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Run Publisher Script
+        run: |
+          python scripts/publisher.py
