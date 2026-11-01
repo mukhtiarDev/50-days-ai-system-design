@@ -2,15 +2,15 @@ name: Daily Content Publisher
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Runs daily at 12:00 AM UTC
-  workflow_dispatch:      # Allows manual trigger from GitHub Actions tab
+    # Runs at 00:00 UTC on Wednesday (3) and Saturday (6)
+    - cron: '0 0 * * 3,6'
+  workflow_dispatch:
 
 jobs:
   publish:
     runs-on: ubuntu-latest
-    
     permissions:
-      contents: write # Required to push daily commits
+      contents: write
 
     steps:
       - name: Checkout Repository
