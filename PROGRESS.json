@@ -1,6 +1,7 @@
 {
   "published_files": [
-    "lessons/basics/01-system-design-mindset-and-the-design-process.md"
+    "lessons/basics/01-system-design-mindset-and-the-design-process.md",
+    "lessons/basics/02-functional-and-non-functional-requirements.md"
   ],
-  "last_published_date": "2026-10-31T23:54:40.541653+00:00"
+  "last_published_date": "2026-11-04T05:52:49.288508+00:00"
 }
