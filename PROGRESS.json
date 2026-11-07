@@ -1,7 +1,8 @@
 {
   "published_files": [
-    "lessons/basics/01-system-design-mindset-and-the-design-process.md",
-    "lessons/basics/02-functional-and-non-functional-requirements.md"
+    "lessons/basics/03-capacity-estimation-and-back-of-the-envelope-math.md",
+    "lessons/basics/02-functional-and-non-functional-requirements.md",
+    "lessons/basics/01-system-design-mindset-and-the-design-process.md"
   ],
-  "last_published_date": "2026-11-04T05:52:49.288508+00:00"
+  "last_published_date": "2026-11-07T05:38:36.567144+00:00"
 }
