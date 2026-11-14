@@ -1,9 +1,10 @@
 {
   "published_files": [
-    "lessons/basics/02-functional-and-non-functional-requirements.md",
-    "lessons/basics/01-system-design-mindset-and-the-design-process.md",
     "lessons/basics/04-api-design-and-versioning.md",
-    "lessons/basics/03-capacity-estimation-and-back-of-the-envelope-math.md"
+    "lessons/basics/02-functional-and-non-functional-requirements.md",
+    "lessons/basics/05-relational-database-design-and-normalization.md",
+    "lessons/basics/03-capacity-estimation-and-back-of-the-envelope-math.md",
+    "lessons/basics/01-system-design-mindset-and-the-design-process.md"
   ],
-  "last_published_date": "2026-11-11T05:46:55.285164+00:00"
+  "last_published_date": "2026-11-14T05:56:37.653686+00:00"
 }
