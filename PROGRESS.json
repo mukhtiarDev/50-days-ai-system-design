@@ -1,11 +1,12 @@
 {
   "published_files": [
-    "lessons/basics/02-functional-and-non-functional-requirements.md",
-    "lessons/basics/06-sql-vs-nosql-data-modeling.md",
+    "lessons/basics/03-capacity-estimation-and-back-of-the-envelope-math.md",
     "lessons/basics/04-api-design-and-versioning.md",
-    "lessons/basics/05-relational-database-design-and-normalization.md",
+    "lessons/basics/07-indexing-query-plans-and-database-performance.md",
     "lessons/basics/01-system-design-mindset-and-the-design-process.md",
-    "lessons/basics/03-capacity-estimation-and-back-of-the-envelope-math.md"
+    "lessons/basics/05-relational-database-design-and-normalization.md",
+    "lessons/basics/06-sql-vs-nosql-data-modeling.md",
+    "lessons/basics/02-functional-and-non-functional-requirements.md"
   ],
-  "last_published_date": "2026-11-18T06:58:17.624071+00:00"
+  "last_published_date": "2026-11-21T06:46:40.072721+00:00"
 }
